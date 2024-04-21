@@ -17,8 +17,8 @@ h1, h2 {
     color: blanchedalmond;
 }
 
-section {
-    margin-bottom: 30px;
+h2 {
+    margin-bottom: 10px;
 }
 
 #about {
@@ -26,10 +26,26 @@ section {
 }
 
 #experience-list {
-    list-style-type: trad-chinese-informal;
+    /* list-style-type: trad-chinese-informal; */
+    display: flex;
+}
+
+#connect-list {
+    display: flex;
+}
+
+#connect-img {
+    width: 18px;
 }
 
 a:hover {
   background: #558ABB;
   text-decoration: line-through;
+}
+
+#header {
+    position: fixed;
+    background-color: blue;
+    align-content: center;
+    text-align: center;
 }
